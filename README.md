@@ -8,5 +8,5 @@
 
 ### Script.Js
 1. Open command line of your computer.
-2. Locate the centbee>api folder.
+2. Locate the centbee folder.
 3. Type "nodemon script.js" or "node script.js" to establish a connection to the database.
