@@ -3,7 +3,7 @@
 ### Database
 1. Open centbee>api folder
 2. Locate the database folder and open it
-3. In the database folder, there's a .sql which contains the information of the database
+3. In the database folder, there's a centbee.sql which contains the information of the database
 4. Run your database server and import this .sql file in order create the database
 
 ### Script.Js
