@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `centbee`
 --
+CREATE DATABASE IF NOT EXISTS `centbee` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `centbee`;
 
 -- --------------------------------------------------------
 
@@ -49,7 +51,7 @@ INSERT INTO `employees` (`empId`, `name`, `surname`, `occupation`) VALUES
 (19, 'Jacob', 'Murry', 'Network Administrator'),
 (20, 'Matome', 'Molamoleng', 'Project Manager'),
 (21, 'Kinsley', 'Conan', 'Auditor'),
-(22, 'Bongi', 'Mahlangu', 'Maintenence'),
+(22, 'Bongi', 'Mahlangu', 'Maintenance'),
 (24, 'Jimmy', 'Rose', 'Electrician');
 
 --
@@ -71,8 +73,4 @@ ALTER TABLE `employees`
 --
 ALTER TABLE `employees`
   MODIFY `empId` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
-COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+--
